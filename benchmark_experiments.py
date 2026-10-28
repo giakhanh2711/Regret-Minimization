@@ -2,8 +2,8 @@ import argparse
 import utils
 import numpy as np
 import pandas as pd
-from regret_matching import RegretMatching
-from regret_matching_plus import RegretMatchingPlus
+from regret_matching.regret_matching import RegretMatching
+from regret_matching.regret_matching_plus import RegretMatchingPlus
 
 class Experiment:
     def __init__(self, algo: str, payoffs: dict, game_name, T: int):
